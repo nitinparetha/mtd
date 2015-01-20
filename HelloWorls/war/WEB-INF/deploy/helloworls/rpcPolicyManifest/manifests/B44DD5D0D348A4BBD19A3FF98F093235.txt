@@ -1,0 +1,2 @@
+serviceClass: com.tutorialpont.client.GreetingService
+path: 3B0FA85ADEEC182C967B656F793B717F.gwt.rpc
