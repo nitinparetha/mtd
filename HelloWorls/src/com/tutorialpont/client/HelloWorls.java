@@ -40,9 +40,18 @@ public class HelloWorls implements EntryPoint {
 	 */
 	public void onModuleLoad() {
 		final Button sendButton = new Button("Send");
+		final Button one = new Button("1");
+		final Button two = new Button("2");
+		final Button three = new Button("3");
 		final TextBox nameField = new TextBox();
 		nameField.setText("GWT User");
 		final Label errorLabel = new Label();
+		final VerticalPanel vpanel = new DragPanel();
+		vpanel.add(sendButton);
+		vpanel.add(one);
+		vpanel.add(two);
+		vpanel.add(three);
+		vpanel.setBorderWidth(20);
 
 		// We can add style names to widgets
 		sendButton.addStyleName("sendButton");
@@ -50,8 +59,9 @@ public class HelloWorls implements EntryPoint {
 		// Add the nameField and sendButton to the RootPanel
 		// Use RootPanel.get() to get the entire body element
 		RootPanel.get("nameFieldContainer").add(nameField);
-		RootPanel.get("sendButtonContainer").add(sendButton);
+//		RootPanel.get("sendButtonContainer").add(sendButton);
 		RootPanel.get("errorLabelContainer").add(errorLabel);
+		RootPanel.get("testid").add(vpanel);
 
 		// Focus the cursor on the name field when the app loads
 		nameField.setFocus(true);
