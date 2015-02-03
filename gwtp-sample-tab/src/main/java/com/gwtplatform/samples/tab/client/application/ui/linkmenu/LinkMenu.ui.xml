@@ -3,10 +3,10 @@
     <ui:with type="com.gwtplatform.samples.tab.client.place.NameTokens" field="nameTokens"/>
 
     <g:HTMLPanel>
-        <g:InlineHyperlink targetHistoryToken="{nameTokens.getHomeNewsPage}">Home</g:InlineHyperlink>
+        <g:InlineHyperlink targetHistoryToken="{nameTokens.getHomeNewsPage}">Personal</g:InlineHyperlink>
         |
-        <g:InlineHyperlink targetHistoryToken="{nameTokens.getLocalDialogSamplePage}">Dialogs</g:InlineHyperlink>
+        <g:InlineHyperlink targetHistoryToken="{nameTokens.getLocalDialogSamplePage}">Developer</g:InlineHyperlink>
         |
-        <g:InlineHyperlink targetHistoryToken="{nameTokens.getSettingsPage}">Settings</g:InlineHyperlink>
+        <g:InlineHyperlink targetHistoryToken="{nameTokens.getSettingsPage}">QA</g:InlineHyperlink>
     </g:HTMLPanel>
 </ui:UiBinder>

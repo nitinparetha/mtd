@@ -15,7 +15,7 @@
                 <g:InlineLabel ui:field="topMessage" styleName="{style.topMessage}" visible="false"/>
             </div>
         </div>
-        <div style="margin: 10px 3px 0;">
+        <div style="margin: 10px 3px 0; width=100%">
             <npui:RoundTabPanel ui:field="tabPanel"/>
             <npui2:LinkMenu ui:field="linkMenu"/>
         </div>

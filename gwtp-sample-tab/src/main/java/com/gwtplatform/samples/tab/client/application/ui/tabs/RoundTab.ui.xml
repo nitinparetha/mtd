@@ -3,8 +3,17 @@
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder' xmlns:g='urn:import:com.google.gwt.user.client.ui'>
     <ui:style src='../../defines.css' type='com.gwtplatform.samples.tab.client.application.ui.tabs.BaseTab.Style'>
         .tab {
-            float: left;
+           
             margin-right: 8px;
+            margin-left: 8px;
+            text-align: center;
+            display: table-cell;
+            border-right-width: 2px;
+            border-right-style: solid;
+            border-right-color: white;
+            border-left-width: 2px;
+            border-left-style: solid;
+            border-left-color: white; 
         }
 
         .tab a, .tab a:visited, .tab a:hover {
