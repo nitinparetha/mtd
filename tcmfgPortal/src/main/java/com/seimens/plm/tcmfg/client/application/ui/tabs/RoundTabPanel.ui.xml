@@ -1,0 +1,37 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder' xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+    <ui:style src='../../defines.css'>
+        .horizontalBar {
+            width: 100%;
+            max-height: 5px;
+            background-color: darkPanelColor;
+            width: 100%;
+    		display: table;
+    		table-layout: fixed;
+        }
+
+        .container {
+            border-width: 1px 5px 5px 5px;
+            border-style: solid;
+            border-color: darkPanelColor;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .textStyle{
+            height: 100%;
+            width: 100%;
+    		display: table;
+    		table-layout: fixed;
+	}
+    </ui:style>
+    <g:FlowPanel >
+        <g:HTMLPanel stylePrimaryName="{style.textStyle}">
+            <g:FlowPanel ui:field="tabPanel" stylePrimaryName="{style.textStyle}"/>
+            <div style="clear: both;"></div>
+            <div class="{style.horizontalBar}"/>
+        </g:HTMLPanel>
+        <g:FlowPanel addStyleNames="{style.container}" ui:field="tabContentContainer"/>
+    </g:FlowPanel>
+</ui:UiBinder>
