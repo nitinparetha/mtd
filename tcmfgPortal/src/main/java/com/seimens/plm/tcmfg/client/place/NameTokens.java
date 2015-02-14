@@ -6,6 +6,7 @@ public class NameTokens {
     public static final String two = "!home";
     public static final String three = "!home";
     public static final String four = "!home";
+    public static final String adminPage = "!adminPage";
     
 
     public static String getHome() {
