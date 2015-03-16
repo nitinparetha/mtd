@@ -2,7 +2,7 @@ package com.seimens.plm.tcmfg.client.place;
 
 public class NameTokens {
     public static final String home = "!home";
-    public static final String one = "!home";
+    public static final String dev = "!dev";
     public static final String two = "!home";
     public static final String three = "!home";
     public static final String four = "!home";
@@ -17,8 +17,8 @@ public class NameTokens {
 	/**
 	 * @return the one
 	 */
-	public static String getOne() {
-		return one;
+	public static String getDev() {
+		return dev;
 	}
 
 
