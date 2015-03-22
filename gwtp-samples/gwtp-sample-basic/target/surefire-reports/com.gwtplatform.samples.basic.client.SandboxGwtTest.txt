@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.gwtplatform.samples.basic.client.SandboxGwtTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 91.442 sec <<< FAILURE!
+testSandbox(com.gwtplatform.samples.basic.client.SandboxGwtTest)  Time elapsed: 91.413 sec  <<< ERROR!
+com.google.gwt.junit.client.TimeoutException: The browser did not contact the server within 60000ms.
+ - 1 client(s) haven't responded back to JUnitShell since the start of the test.
+ Actual time elapsed: 60.066 seconds.
+Try increasing this timeout using the '-testBeginTimeout minutes' option
+The default value of minutes is 1, i.e., the server waits 1 minute or 60 seconds.
+
+	at com.google.gwt.junit.JUnitShell.notDone(JUnitShell.java:1042)
+	at com.google.gwt.junit.JUnitShell.runTestImpl(JUnitShell.java:1364)
+	at com.google.gwt.junit.JUnitShell.runTestImpl(JUnitShell.java:1284)
+	at com.google.gwt.junit.JUnitShell.runTest(JUnitShell.java:678)
+	at com.google.gwt.junit.client.GWTTestCase.runTest(GWTTestCase.java:421)
+	at junit.framework.TestCase.runBare(TestCase.java:141)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:129)
+	at com.google.gwt.junit.client.GWTTestCase.run(GWTTestCase.java:247)
+	at junit.framework.TestSuite.runTest(TestSuite.java:255)
+	at junit.framework.TestSuite.run(TestSuite.java:250)
+	at org.codehaus.mojo.gwt.test.MavenTestRunner.doRun(MavenTestRunner.java:105)
+	at junit.textui.TestRunner.start(TestRunner.java:183)
+	at org.codehaus.mojo.gwt.test.MavenTestRunner.main(MavenTestRunner.java:63)
+

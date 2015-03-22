@@ -1,0 +1,3 @@
+# Module gwtpmobilesample
+# RPC service class, partial path of RPC policy file
+com.gwtplatform.dispatch.rpc.shared.DispatchService, CEFDD0690ADF6513817FF9FCEE924925.gwt.rpc

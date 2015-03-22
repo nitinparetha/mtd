@@ -1,0 +1,2 @@
+# Module com.gwtplatform.samples.basic.Gwtpsample.JUnit
+# RPC service class, partial path of RPC policy file
