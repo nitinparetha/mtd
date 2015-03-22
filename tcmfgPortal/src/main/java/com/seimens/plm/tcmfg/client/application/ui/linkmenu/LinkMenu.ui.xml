@@ -3,7 +3,7 @@
     <ui:with type="com.seimens.plm.tcmfg.client.place.NameTokens" field="nameTokens"/>
 
     <g:HTMLPanel>
-        <g:InlineHyperlink targetHistoryToken="{nameTokens.getOne}"></g:InlineHyperlink>
+        <g:InlineHyperlink targetHistoryToken="{nameTokens.getDev}">Development</g:InlineHyperlink>
         |
         <g:InlineHyperlink targetHistoryToken="{nameTokens.getTwo}"></g:InlineHyperlink>
         |
