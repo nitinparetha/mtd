@@ -4,7 +4,6 @@
     <ui:style src='../../defines.css'>
         .container {
             background-color: darkPanelColor;
-            padding: 0 3px 3px;
         }
 
         .titlebar {

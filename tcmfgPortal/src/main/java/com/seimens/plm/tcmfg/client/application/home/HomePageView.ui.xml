@@ -10,6 +10,6 @@
 
 
     <g:HTMLPanel addStyleNames="{style.panel}">
-        <h1>Personal</h1>
+        <h1>Home</h1>
     </g:HTMLPanel>
 </ui:UiBinder>

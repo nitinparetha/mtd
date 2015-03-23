@@ -45,7 +45,7 @@ public class AdminAreaPresenter extends Presenter<AdminAreaPresenter.MyView, Adm
      * {@link AdminAreaPresenter}'s proxy.
      */
     @ProxyCodeSplit
-    @NameToken(NameTokens.adminPage)
+    @NameToken(NameTokens.admin)
     @UseGatekeeper(IsAdminGatekeeper.class)
     public interface MyProxy extends TabContentProxyPlace<AdminAreaPresenter> {
     }

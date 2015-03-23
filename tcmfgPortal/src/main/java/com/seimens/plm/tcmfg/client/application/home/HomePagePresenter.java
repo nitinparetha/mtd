@@ -33,7 +33,7 @@ public class HomePagePresenter extends Presenter<HomePagePresenter.MyView, HomeP
     @TabInfo(container = ApplicationPresenter.class)
     static TabData getTabLabel(IsAdminGatekeeper adminGatekeeper) {
         // Priority = 1000, means it will be the right-most tab in the home tab
-        return new TabDataExt("Personal", 999, adminGatekeeper);
+        return new TabDataExt("Home", 0, adminGatekeeper);
     }
     
     @Inject

@@ -1,15 +1,17 @@
 <!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
 <ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
-             xmlns:g='urn:import:com.google.gwt.user.client.ui'>
+             xmlns:g='urn:import:com.google.gwt.user.client.ui'
+             xmlns:npui="urn:import:com.seimens.plm.tcmfg.client.application.ui.tabs">
     <ui:style src='../defines.css'>
         .panel {
             background-color: lightPanelColor;
-            padding: 5px;
+            padding: 0px;
         }
     </ui:style>
 
 
     <g:HTMLPanel addStyleNames="{style.panel}">
-        <h1>Development</h1>
+        <npui:SimpleTabPanel ui:field="tabPanel"/>
+        
     </g:HTMLPanel>
 </ui:UiBinder>

@@ -4,6 +4,12 @@ import com.seimens.plm.tcmfg.client.application.adminarea.AdminAreaPresenter;
 import com.seimens.plm.tcmfg.client.application.adminarea.AdminAreaView;
 import com.seimens.plm.tcmfg.client.application.development.DevelopmentPagePresenter;
 import com.seimens.plm.tcmfg.client.application.development.DevelopmentPageView;
+import com.seimens.plm.tcmfg.client.application.devsource.DevsourcePagePresenter;
+import com.seimens.plm.tcmfg.client.application.devsource.DevsourcePageView;
+import com.seimens.plm.tcmfg.client.application.devtools.DevtoolsPagePresenter;
+import com.seimens.plm.tcmfg.client.application.devtools.DevtoolsPageView;
+import com.seimens.plm.tcmfg.client.application.general.GeneralPagePresenter;
+import com.seimens.plm.tcmfg.client.application.general.GeneralPageView;
 import com.seimens.plm.tcmfg.client.application.home.HomeModule;
 import com.seimens.plm.tcmfg.client.application.home.HomePagePresenter;
 import com.seimens.plm.tcmfg.client.application.home.HomePageView;
@@ -23,6 +29,13 @@ public class ApplicationModule extends AbstractPresenterModule {
         		HomePagePresenter.MyProxy.class);
         bindPresenter(DevelopmentPagePresenter.class, DevelopmentPagePresenter.MyView.class, DevelopmentPageView.class,
         		DevelopmentPagePresenter.MyProxy.class);
+        bindPresenter(GeneralPagePresenter.class, GeneralPagePresenter.MyView.class, GeneralPageView.class,
+        		GeneralPagePresenter.MyProxy.class);
+        bindPresenter(DevsourcePagePresenter.class, DevsourcePagePresenter.MyView.class, DevsourcePageView.class,
+        		DevsourcePagePresenter.MyProxy.class);
+        bindPresenter(DevtoolsPagePresenter.class, DevtoolsPagePresenter.MyView.class, DevtoolsPageView.class,
+        		DevtoolsPagePresenter.MyProxy.class);
+        
     }
 }
 

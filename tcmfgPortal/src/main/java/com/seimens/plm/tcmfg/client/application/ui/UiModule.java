@@ -32,7 +32,7 @@ public class UiModule extends AbstractGinModule {
         // Singleton binders
         bind(LinkMenu.Binder.class).in(Singleton.class);
         bind(RoundTabPanel.Binder.class).in(Singleton.class);
-//        bind(SimpleTabPanel.Binder.class).in(Singleton.class);
+        bind(SimpleTabPanel.Binder.class).in(Singleton.class);
 
         install(new GinFactoryModuleBuilder().build(TabFactory.class));
     }

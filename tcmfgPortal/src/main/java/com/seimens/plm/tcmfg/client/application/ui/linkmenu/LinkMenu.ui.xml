@@ -5,8 +5,10 @@
     <g:HTMLPanel>
         <g:InlineHyperlink targetHistoryToken="{nameTokens.getDev}">Development</g:InlineHyperlink>
         |
-        <g:InlineHyperlink targetHistoryToken="{nameTokens.getTwo}"></g:InlineHyperlink>
+        <g:InlineHyperlink targetHistoryToken="{nameTokens.getHome}">Home</g:InlineHyperlink>
         |
-        <g:InlineHyperlink targetHistoryToken="{nameTokens.getThree}"></g:InlineHyperlink>
+        <g:InlineHyperlink targetHistoryToken="{nameTokens.getGeneral}">General</g:InlineHyperlink>
+        |
+        <g:InlineHyperlink targetHistoryToken="{nameTokens.getAdmin}">Admin</g:InlineHyperlink>
     </g:HTMLPanel>
 </ui:UiBinder>

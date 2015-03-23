@@ -12,6 +12,9 @@ import com.google.gwt.i18n.client.Constants.DefaultStringValue;
  */
 public interface TcmfgConstants extends Constants {
 
-    @DefaultStringValue("Home")
-    String home();
+    @DefaultStringValue("Development")
+    String dev();
+    
+    @DefaultStringValue("Tools")
+    String tools();
 }
